@@ -6,5 +6,5 @@ jobs:
    steps:
       - checkout
       - run: git clone https://github.com/akhilnarang/scripts buildenv && cd buildenv && bash setup/android_build_env.sh && cd ..
-      - run: wget https://raw.githubusercontent.com/keselekpermen69/scripts/build/kernel.sh
+      - run: wget https://raw.githubusercontent.com/keselekpermen69/scripts/master/kernel.sh
       - run: bash kernel.sh
